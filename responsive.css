@@ -1,0 +1,511 @@
+@media only screen and (max-width: 1336px) {
+    :root {
+        --slide-item-width: 472px;
+        --slide-item-height: 400px;
+    }
+
+    #events .list {
+        width: 1034px;
+    }
+
+    #events .list .swiper-wrapper .card {
+        /* margin-right: 16px !important; */
+        width: 498px !important;
+    }
+
+    .our-services hr {
+        width: 1034px;
+    }
+
+    .services,
+    .about {
+        width: 1034px;
+    }
+
+    .services .service-list .service-item a .service-item-right{
+        width: 670px;
+    }
+
+    .services .service-list .service-item a .service-item-right button {
+        bottom: 14px;
+    }
+
+    .work-partners .companies {
+        width: 1034px;
+    }
+
+    .work-partners .companies ul .company-logo {
+        width: 154px;
+        text-align: center;
+        line-height: 32px;
+    }
+
+    .work-partners .companies ul .company-logo img {
+        height: 146px;
+        width: 146px;
+    }
+
+    .work-teams .our-teams {
+        width: 1034px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    :root {
+        --slide-item-width: 342px;
+        --slide-item-height: 268px;
+    }
+
+    header .header-left .header-logo img {
+        height: 48px;
+    }
+
+    header .header-left .header-logo h1 {
+        font-size: 30px;
+    }
+
+    header .header-right nav ul li a {
+        font-size: 20px;
+    }
+
+    header .header-right nav ul li {
+        margin: 0 10px;
+    }
+
+    header .header-right nav ul li a button {
+        font-size: 16px;
+    }
+
+    #events .list {
+        width: 780px;
+    }
+
+    #events .list .swiper-wrapper .card {
+        /* margin-right: 16px !important; */
+        /* border: 2px solid red; */
+        width: 368px !important;
+    }
+
+    .our-services hr {
+        width: 780px;
+    }
+
+    .services {
+        width: 780px;
+    }
+
+    .services .service-list .service-item a .service-item-right{
+        width: 456px;
+    }
+
+    .services .service-list .service-item a .service-item-right button {
+        bottom: 14px;
+    }
+
+    .work-partners .companies {
+        width: 780px;
+    }
+
+    .work-partners .companies ul .company-logo {
+        width: 154px;
+        text-align: center;
+        line-height: 32px;
+    }
+
+    .work-partners .companies ul .company-logo img {
+        height: 146px;
+        width: 146px;
+    }
+
+    .work-teams .our-teams {
+        width: 780px;
+    }
+
+    #events .list .swiper-wrapper .card .card-link h2 {
+        font-size: 22px;
+    }
+
+    #events .list .swiper-wrapper .card .card-link p {
+        font-size: 14px;
+    }
+
+    .our-services h1 {
+        font-size: 36px;
+    }
+
+    .services .service-list .service-item a img {
+        height: 210px;
+        width: 278px;
+    }
+
+    .services .service-list .service-item a .service-item-right h2 {
+        font-size: 32px;
+    }
+
+    .services .service-list .service-item a .service-item-right p {
+        font-size: 14px;
+    }
+
+    .services .service-list .service-item a .service-item-right button {
+        bottom: 8px;
+    }
+
+    .about {
+        width: 734px;
+    }
+
+    .about .mission p{
+        font-size: 22px;
+    }
+
+    .about h2 {
+        font-size: 32px;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .work-partners .companies ul .company-logo img {
+        height: 112px;
+        width: 112px;
+    }
+
+    .work-partners .companies ul .company-logo h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .work-teams .our-teams ul .team img {
+        height: 154px;
+        width: 154px;
+    }
+
+    .work-teams .our-teams ul .team h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .address .our-address pre {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    :root {
+        --slide-item-width: 462px;
+        --slide-item-height: 298px;
+    }
+
+    body {
+        background: radial-gradient(38% 20% at 50% 0%, rgb(255, 131, 0) 52%, rgb(255, 51, 0) 85%, rgb(0, 0, 0) 102%), black;
+        background-repeat: no-repeat;
+    }
+
+    header{
+        display: block;
+    }
+
+    header .header-right {
+        display: none;
+    }
+
+    #events{
+        padding-top: 56px;
+    }
+
+    #events .list {
+        width: 514px;
+    }
+
+    #events .list .swiper-wrapper .card {
+        width: 486px !important;
+    }
+
+    label {
+        display: block;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .our-services hr {
+        width: 514px;
+    }
+
+    .services {
+        width: 514px;
+        padding: 0px;
+    }
+
+    .services .service-list .service-item {
+        padding: 4px;
+        margin-bottom: 10px;
+    }
+
+    .services .service-list .service-item a img {
+        padding: 0;
+        border-radius: 0;
+        height: 158px;
+        width: 190px;
+    }
+
+    .services .service-list .service-item a .service-item-right {
+        width: 300px;
+    }
+
+    .services .service-list .service-item a .service-item-right h2 {
+        font-size: 28px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+    }
+
+    .services .service-list .service-item a .service-item-right p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .services .service-list .service-item a .service-item-right button {
+        font-size: 12px;
+        height: 30px;
+        width: 134px;
+    }
+
+    .work-partners .companies {
+        width: 514px;
+    }
+
+    .work-partners .companies ul .company-logo {
+        width: 154px;
+        text-align: center;
+        line-height: 32px;
+    }
+
+    .work-partners .companies ul .company-logo img {
+        height: 146px;
+        width: 146px;
+    }
+
+    .work-teams .our-teams {
+        width: 514px;
+    }
+
+    .about {
+        width: 490px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .about .mission p {
+        font-size: 19px;
+    }
+
+    .work-partners .companies ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 20px;
+    }
+
+    .work-partners .companies ul .company-logo{
+        margin: auto;
+    }
+
+    .work-teams .our-teams ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+
+    .work-teams .our-teams ul .team{
+        margin: auto;
+    }
+
+    .work-teams .our-teams ul .team img {
+        height: 154px;
+        width: 154px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    :root {
+        --slide-item-width: 284px;
+        --slide-item-height: 234px;
+    }
+
+    header{
+        max-width: 100vw;
+    }
+
+    header .header-left .header-logo {
+        margin: 0px;
+    }
+
+    header .header-left .header-logo h1 {
+        font-size: 28px;
+        margin: 0px 4px;
+    }
+
+    #check:checked ~ label .cross{
+        right: 138px;
+    }
+
+    .sidebar {
+        width: 176px;
+    }
+
+    .sidebar h2 {
+        padding: 12px 0px;
+        text-align: center;
+    }
+
+    .sidebar ul li{
+        line-height: 64px;
+    }
+
+    .sidebar ul li a{
+        font-size: 18px;
+    }
+
+    #events .list{
+        margin: auto;
+        padding: 8px;
+        width: 350px;
+    }
+
+    #events .list .swiper-wrapper .card {
+        width: 334px !important;
+    }
+
+    #events .list .swiper-wrapper .card .card-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #events .list .swiper-wrapper .card .card-link img{
+        margin: auto;
+    }
+
+    #events .list .swiper-wrapper .card .card-link h2{
+        padding: 0px 12px;
+    }
+
+    #events .list .swiper-wrapper .card .card-link p{
+        padding: 0px 12px;
+        text-align: justify;
+    }
+
+    .our-services {
+        margin: 10px 0px;
+    }
+
+    .our-services h1 {
+        font-size: 30px;
+    }
+
+    .our-services .shine-box{
+        height: 8px;
+        width: 186px;
+    }
+
+    .our-services hr {
+        width: 328px;
+    }
+
+    .services{
+        width: 328px;
+        height: 250px;
+    }
+
+    .services .service-list .service-item{
+        margin-bottom: 8px;
+    }
+
+    .services .service-list .service-item a{
+        border-bottom: 2px solid red;
+        height: 170px;
+    }
+
+    .services .service-list .service-item a img {
+        height: 118px;
+        width: 154px;
+    }
+
+    .services .service-list .service-item a .service-item-right {
+        width: 142px;
+    }
+
+    .services .service-list .service-item a .service-item-right h2 {
+        font-size: 14px;
+        height: 18px;
+    }
+
+    .services .service-list .service-item a .service-item-right p {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .services .service-list .service-item a .service-item-right button{
+        right: 162px;
+        bottom: 4px;
+    }
+
+    .about {
+        width: 316px;
+    }
+
+    .about h2{
+        font-size: 24px;
+    }
+
+    .about p {
+        font-size: 11px;
+    }
+
+    .work-partners .companies {
+        width: 328px;
+    }
+
+    .work-partners .companies ul {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 16px;
+    }
+
+    .work-partners .companies ul .company-logo img {
+        height: 134px;
+        width: 134px;
+    }
+
+    .work-teams .our-teams ul {
+        row-gap: 16px;
+    }
+
+    .work-teams .our-teams {
+        width: 328px;
+    }
+
+    .work-teams .our-teams ul .team {
+        width: 142px;
+    }
+
+    .work-teams .our-teams ul .team img {
+        height: 128px;
+        width: 128px;
+    }
+
+    .address .our-address pre {
+        font-size: 11px;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+}
