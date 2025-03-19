@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --heading-font: "Dangrek", serif;
+    --para-font: "Poppins", serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a9c8e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    background: radial-gradient(28% 32% at 50% 0%, rgb(255, 131, 0) 52%, rgb(255, 51, 0) 85%, rgb(0, 0, 0) 102%), black;
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.container {
+    background: transparent;
+    backdrop-filter: blur(30px);
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px black;
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-top: 10px;
+    /* font-weight: bold; */
+    color: #ffffff;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #90caf9;
+    border-radius: 4px;
+    background-color: black;
+    filter: opacity(0.5);
+    color: #ffffff;
+}
+
+input::placeholder{
+    color: white;
+    font-family: var(--para-font);
+}
+
+textarea{
+    resize: none;
+    /* color: white; */
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #131313;
+    color: rgb(255, 244, 244);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    /* background-color: #d7d7d7; */
+    filter: brightness(150%);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+a {
+    /* text-decoration: none; */
+    color: #d8dee5;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p{
+    color: #ffffff;
+}
+
+/* .captcha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.captcha input {
+    width: 60%;
+}
+
+.captcha img {
+    width: 35%;
+    height: 40px;
+} */

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="joinus.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Join Us</h2>
+        <form action="submit.php" method="POST" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter your email" id="email" name="email" required>
+
+            <label for="phone">Contact Number:</label>
+            <input type="tel" placeholder="Enter your number" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required >
+
+            <label for="project">Project (if any):</label>
+            <textarea id="project" name="project" rows="3"></textarea>
+
+            <button type="submit">Send Request</button>
+        </form>
+    </div>
+</body>
+</html>

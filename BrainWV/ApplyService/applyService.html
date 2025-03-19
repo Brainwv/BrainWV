@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Service</title>
+    <link rel="stylesheet" href="applyService.css">
+</head>
+<body>
+    <div class="service-container">
+        <h2>Apply for Service</h2>
+        <form action="submit.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" id="name" name="name" required>
+
+            <label for="contact">Email:</label>
+            <input type="text" placeholder="Enter your email" id="contact" name="contact" required>
+
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" placeholder="Enter your phone number" name="contact" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter your location" name="location" required>
+
+            <label for="service">Type of Service:</label>
+            <input id="service" placeholder="Type of service you want.." name="service" required>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="3"></textarea>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+</body>
+</html>
